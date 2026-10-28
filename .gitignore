@@ -1,0 +1,20 @@
+# Local environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Restricted laboratory data and internal readers
+/bin/
+/pydata/
+*.bin
+*.bin[0-9]*
+
+# Generated training outputs (existing tracked checkpoint is retained)
+*.pth
+*.pt
+/runs/
+/checkpoints/
+.env
+.env.*

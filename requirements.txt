@@ -1,0 +1,8 @@
+# Public Python dependencies; the internal pydata reader is not distributed.
+# Original environment versions were not recorded; this is not a lockfile.
+numpy
+matplotlib
+torch
+scikit-learn
+pandas
+seaborn
